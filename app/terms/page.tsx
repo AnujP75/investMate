@@ -13,11 +13,11 @@ export default function Terms() {
                     <ArrowLeftIcon className="w-4 h-4" />
                     Back to Chatbot
                 </Link>
-                <h1 className="text-3xl font-bold">MyAI3</h1>
+                <h1 className="text-3xl font-bold">InvestMate AI</h1>
                 <h2 className="text-2xl font-semibold">Terms of Use / Disclaimer</h2>
 
                 <p className="text-gray-700">
-                    The following terms of use govern access to and use of the MyAI3
+                    The following terms of use govern access to and use of the InvestMate AI
                     Assistant ("AI Chatbot"), an artificial intelligence tool provided by
                     {OWNER_NAME} ("I", "me", or "myself"). By engaging with the AI
                     Chatbot, you agree to these terms. If you do not agree, you may not
@@ -30,8 +30,7 @@ export default function Terms() {
                         <li className="text-gray-700">
                             <span className="font-semibold">Provider and Purpose:</span> The
                             AI Chatbot is a tool developed and maintained by {OWNER_NAME}. It
-                            is intended solely to assist users with questions and coursework
-                            related to courses taught by {OWNER_NAME}. The AI Chatbot is not
+                            is intended solely to assist users with questions related to investment. The AI Chatbot is not
                             affiliated with, endorsed by, or operated by the course provider.
                         </li>
                         <li className="text-gray-700">
