@@ -33,7 +33,16 @@ export const DATE_AND_TIME = getDateAndTime();
 export const AI_NAME = "InvestMate AI";
 export const OWNER_NAME = "Anuj Pannala";
 
-export const WELCOME_MESSAGE = `Hello! I'm ${AI_NAME}, an AI assistant created by ${OWNER_NAME}. I can help explain investing, answer finance questions, and guide you through market ideas.`
+export const WELCOME_MESSAGE = `Hi! I'm ${AI_NAME}, an AI assistant created by ${OWNER_NAME} and your beginner-friendly guide to understanding U.S. stocks 📈
+
+I can help you:
+- Understand what a company does
+- Break down stock concepts in simple terms
+- Explain key metrics like P/E ratio, revenue, and market cap
+
+Ask me about any U.S. stock, and I’ll explain it step-by-step in plain English.
+
+⚠️ I provide educational information only — not financial advice.`;
 
 export const CLEAR_CHAT_TEXT = "New";
 
