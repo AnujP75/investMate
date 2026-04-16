@@ -41,12 +41,14 @@ export const WELCOME_MESSAGE = `Hello! I'm ${AI_NAME}, ready to help you.`;
 
 This file controls **how your AI assistant behaves and responds**. Located in the root directory, it contains:
 
-- **Identity Prompt**: Who the AI is and who created it
-- **Tool Calling Prompt**: Instructions for when to search the web or database
-- **Tone & Style**: How the AI should communicate (friendly, helpful, educational)
-- **Guardrails**: What the AI should refuse to discuss
-- **Citation Rules**: How to cite sources in responses
-- **Course Context**: Domain-specific instructions (currently mentions course syllabus)
+- **Identity Prompt**: Who the AI is, its purpose, and core principles (e.g., educational focus, no investment advice)
+- **Tool Calling Prompt**: Instructions for gathering accurate information using vector database and web search
+- **Tone & Style**: Communication guidelines including real-world analogies, beginner-friendly explanations, and brief comparisons
+- **Guardrails**: Strict rules against providing investment advice, specifying risks, and refusing harmful requests
+- **Response Structure**: Standardized format for stock explanations including company overview, ownership concepts, key metrics, risks, and educational takeaways
+- **Citation Rules**: Requirements for citing reputable sources with inline markdown
+- **Course Context**: Domain-specific guidance for U.S. stock education with scenarios and examples
+- **Follow-up Prompts**: Instructions for ending responses with targeted questions to deepen learning
 
 The prompts are modular, so you can edit individual sections without affecting others. The `SYSTEM_PROMPT` combines all these sections.
 
